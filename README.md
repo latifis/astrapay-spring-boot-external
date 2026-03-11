@@ -565,3 +565,17 @@ public @interface CheckSum {
     Class<? extends Payload>[] payload() default {};
 }
 ```
+
+## Screenshots
+
+### 1. Create Notes Validation Success
+![Postman API](docs/screenshots/create-notes.jpeg)
+
+### 2. Create Notes Validation Failed
+![Postman API](docs/screenshots/create-notes-validation.jpeg)
+
+### 3. Delete Notes
+![Postman API](docs/screenshots/delete-notes.jpeg)
+
+### 4. Get List Notes
+![Postman API](docs/screenshots/get-list-notes.jpeg)
